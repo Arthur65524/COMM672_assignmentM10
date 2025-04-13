@@ -36,7 +36,7 @@
             </label>
         </div>
     </header>
-    <section class="container">
+    <section class="container-address">
         <h2>Contact Us</h2>
         <address>
             Purrfect Vibes HQ<br>
@@ -44,49 +44,48 @@
             Meowtown, CA 90210<br>
             (555) 867-5309
         </address>
-    </section>
-    <div class="form">
+    
         <form action="#" method="post">
-            <label for="note"><em>Note: Fields highlighted in red are required.</em></label>
-            <div>
+            <p class="form-group full-width"><em>Note: Fields highlighted in red are required.</em></p>
+            <div class="form-group">
                 <label for="fname">First Name:</label>
                 <input type="text" name="fname" required placeholder="First Name" id="fname">
             </div>
-            <div>
+            <div class="form-group">
                 <label for="lname">Last Name:</label>
                 <input type="text" name="fname" required placeholder="Last Name" id="lname">
             </div>
-            <div>
+            <div class="form-group">
                 <label for="company">Organization (if any):</label>
                 <input type="text" name="Company" placeholder="Optional" id="company">
             </div>
-            <div>
+            <div class="form-group">
                 <label for="phone">Phone Number:</label>
                 <input type="tel" name="phone" required placeholder="555-555-5555" id="phone">
             </div>
-            <div>
+            <div class="form-group full-width">
                 <label for="email">Email:</label>
                 <input type="email" name="email" required placeholder="example@domain.com" id="email">
             </div>
-            <div>
+            <div class="form-group">
                 <label>Feline Interests:</label>
                 <input type="checkbox" name="interest" id="interest1" value="interest1">
-                <label for="interest1">Cat Wellness</label>
+                <label class="inline-field" for="interest1">Cat Wellness</label>
                 <input type="checkbox" name="interest" id="interest2" value="interest2">
-                <label for="interest1">Cat Training</label>
+                <label class="inline-field" for="interest1">Cat Training</label>
                 <input type="checkbox" name="interest" id="interest3" value="interest3">
-                <label for="interest1">Cat Adoption</label>
+                <label class="inline-field" for="interest1">Cat Adoption</label>
             </div>
-            <div>
+            <div class="form-group">
                 <label>Your Cat's Lifestyle:</label>
                 <input type="radio" name="product" id="Product1" value="Product1">
-                <label for="product1">Indoor Cat</label>
+                <label class="inline-field" for="product1">Indoor Cat</label>
                 <input type="radio" name="product" id="Product2" value="Product2">
-                <label for="product1">Outdoor Cat</label>
+                <label class="inline-field" for="product1">Outdoor Cat</label>
                 <input type="radio" name="product" id="Product3" value="Product3">
-                <label for="product1">Both</label>
+                <label class="inline-field" for="product1">Both</label>
             </div>
-            <div>
+            <div class="form-group full-width">
             <p>How many cats do you have?</p>
                 <select name="numbercats">
                     <option value="None" selected>None</option>
@@ -98,7 +97,7 @@
                     <option value="More Than Five">More Than Five</option>
                 </select>
             </div>
-            <div>
+            <div class="form-group full-width">
             <p>How did you hear about Purrfect Vibes?</p>
                 <select name="hearaboutus" multiple size="2">
                     <option value="Social Media" selected>Social Media</option>
@@ -109,13 +108,13 @@
                     <option value="Radio">Radio</option>
                 </select>
             </div>
-            <div>
+            <div class="form-group full-width">
                 <p>Questions or Purrs?</p>
                 <textarea cols="25" rows="7" wrap="soft" placeholder="Share your thoughts with us!"></textarea>
             </div>
-            <button type="submit" width="30" height="24" alt="Add"> SUBMIT TO PURREFECT VIBES</buttoN>
+            <button type="submit" width="30" height="24" alt="Add"> SUBMIT TO PURREFECT VIBES</button>
         </form>
-    </div>
+    </section>
     <footer>
         <div>
             <a href="#"><img src="images/facebook.svg" alt="Facebook"></a>
