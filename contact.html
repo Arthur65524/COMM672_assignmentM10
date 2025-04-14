@@ -61,11 +61,12 @@
             </div>
             <div class="form-group">
                 <label for="phone">Phone Number:</label>
-                <input type="tel" name="phone" required placeholder="555-555-5555" id="phone">
+                <input type="tel" name="phone" required placeholder="555-555-5555" id="phone" pattern="\d{3}[\-]\d{3}[\-]\d{4}" 
+                title="Hint: Please use the format 999-999-9999">
             </div>
             <div class="form-group full-width">
                 <label for="email">Email:</label>
-                <input type="email" name="email" required placeholder="example@domain.com" id="email">
+                <input type="email" name="email" required placeholder="example@domain.com" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
             </div>
             <div class="form-group">
                 <label>Feline Interests:</label>
@@ -86,7 +87,7 @@
                 <label class="inline-field" for="lifestyle3">Both</label>
             </div>
             <div class="form-group full-width">
-            <p>How many cats do you have?</p>
+                <p>How many cats do you have?</p>
                 <select name="numbercats">
                     <option value="None" selected>None</option>
                     <option value="One">One</option>
@@ -98,7 +99,7 @@
                 </select>
             </div>
             <div class="form-group full-width">
-            <p>How did you hear about Purrfect Vibes?</p>
+                <p>How did you hear about Purrfect Vibes?</p>
                 <select name="hearaboutus" multiple size="2">
                     <option value="Social Media" selected>Social Media</option>
                     <option value="Friends/Family">Friends/Family</option>
