@@ -304,6 +304,15 @@ input[type="email"]:required, input[type="text"]:required, input[type="tel"]:req
 input[type="email"]:valid, input[type="text"]:valid, input[type="tel"]:valid {
     border-color: green;
 }
+button {
+    padding: 10px;
+}
+
+
+
+
+
+
 
 
 
