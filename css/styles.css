@@ -261,8 +261,6 @@ address {
 .full-width {
     grid-column: span 2;
 }
-
-
 label, div p {
     font-weight: 600;
     margin-bottom: 5px;

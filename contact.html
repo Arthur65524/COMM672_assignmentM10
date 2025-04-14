@@ -68,24 +68,39 @@
                 <label for="email">Email:</label>
                 <input type="email" name="email" required placeholder="example@domain.com" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
             </div>
-            <div class="form-group">
-                <label>Feline Interests:</label>
-                <input type="checkbox" name="interest" id="interest1" value="interest1">
-                <label class="inline-field" for="interest1">Cat Wellness</label>
-                <input type="checkbox" name="interest" id="interest2" value="interest2">
-                <label class="inline-field" for="interest2">Cat Training</label>
-                <input type="checkbox" name="interest" id="interest3" value="interest3">
-                <label class="inline-field" for="interest3">Cat Adoption</label>
-            </div>
-            <div class="form-group">
-                <label>Your Cat's Lifestyle:</label>
-                <input type="radio" name="lifestyle" id="lifestyle1" value="Product1">
-                <label class="inline-field" for="lifestyle1">Indoor Cat</label>
-                <input type="radio" name="lifestyle" id="lifestyle2" value="Product2">
-                <label class="inline-field" for="lifestyle2">Outdoor Cat</label>
-                <input type="radio" name="lifestyle" id="lifestyle3" value="Product3">
-                <label class="inline-field" for="lifestyle3">Both</label>
-            </div>
+            <section>
+                <div class="form-group">
+                    <label>Feline Interests:</label>
+                    <div>
+                        <input type="checkbox" name="interest" id="interest1" value="interest1">
+                        <label class="inline-field" for="interest1">Cat Wellness</label>
+                    <div>
+                        <input type="checkbox" name="interest" id="interest2" value="interest2">
+                        <label class="inline-field" for="interest2">Cat Training</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="interest" id="interest3" value="interest3">
+                        <label class="inline-field" for="interest3">Cat Adoption</label>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="form-group">
+                    <label>Your Cat's Lifestyle:</label>
+                    <div>
+                        <input type="radio" name="lifestyle" id="lifestyle1" value="Product1">
+                        <label class="inline-field" for="lifestyle1">Indoor Cat</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="lifestyle" id="lifestyle2" value="Product2">
+                        <label class="inline-field" for="lifestyle2">Outdoor Cat</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="lifestyle" id="lifestyle3" value="Product3">
+                        <label class="inline-field" for="lifestyle3">Both</label>
+                    </div>
+                </div>
+            </section>
             <div class="form-group full-width">
                 <p>How many cats do you have?</p>
                 <select name="numbercats">
