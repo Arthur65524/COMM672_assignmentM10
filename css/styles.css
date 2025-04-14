@@ -461,6 +461,6 @@ footer img {
         flex-direction: column;
     }
     .container-address {
-        margin-left: 10px;
+        margin: 0 15px;
     }
 }
