@@ -44,7 +44,6 @@
             Meowtown, CA 90210<br>
             (555) 867-5309
         </address>
-    
         <form action="#" method="post">
             <p class="form-group full-width"><em>Note: Fields highlighted in red are required.</em></p>
             <div class="form-group">
@@ -68,12 +67,13 @@
                 <label for="email">Email:</label>
                 <input type="email" name="email" required placeholder="example@domain.com" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
             </div>
-            <section>
+            <div>
                 <div class="form-group">
                     <label>Feline Interests:</label>
                     <div>
                         <input type="checkbox" name="interest" id="interest1" value="interest1">
                         <label class="inline-field" for="interest1">Cat Wellness</label>
+                    </div>
                     <div>
                         <input type="checkbox" name="interest" id="interest2" value="interest2">
                         <label class="inline-field" for="interest2">Cat Training</label>
@@ -83,8 +83,8 @@
                         <label class="inline-field" for="interest3">Cat Adoption</label>
                     </div>
                 </div>
-            </section>
-            <section>
+            </div>
+            <div>
                 <div class="form-group">
                     <label>Your Cat's Lifestyle:</label>
                     <div>
@@ -100,7 +100,7 @@
                         <label class="inline-field" for="lifestyle3">Both</label>
                     </div>
                 </div>
-            </section>
+            </div>
             <div class="form-group full-width">
                 <p>How many cats do you have?</p>
                 <select name="numbercats">

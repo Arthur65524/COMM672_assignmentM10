@@ -247,7 +247,6 @@ body.home {
 address {
     width: 300px;
   }
-  
   form {
     width: 600px;
     display: grid;
@@ -294,17 +293,6 @@ button {
     font-weight: 600;
 }
 
-
-
-
-
-
-
-
-
-
-
-
 /**Footer**/
 footer {
     text-align: center;
@@ -329,6 +317,13 @@ footer img {
     }
     .features-page .feature-page-block {
         width: 40%;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+    .container-address {
+        margin: 0 15px;
     }
 }
 
